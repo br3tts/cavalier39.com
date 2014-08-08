@@ -1,0 +1,34 @@
+html {
+  background: #000 url(home-0.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body, figure, h3 {
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+a {
+  color: rgb(114, 130, 191);
+  text-decoration: none;
+}
+a:hover {
+  background-color: rgb(114, 130, 191);
+  color: #fff;
+  transition: background-color 200ms linear;
+}
+.caption {
+  position: fixed;
+  right: 5em;
+  bottom: 5em;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.caption a {
+  display: block;
+  padding: 1em;
+}
